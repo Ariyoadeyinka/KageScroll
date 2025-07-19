@@ -1,0 +1,2 @@
+C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\ShinobiLibrary\obj\Debug\ShinobiLibrary.csproj.AssemblyReference.cache
+C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\ShinobiLibrary\obj\Debug\ShinobiLibrary.csproj.CoreCompileInputs.cache
