@@ -120,6 +120,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Anbu.cs" />
+    <Compile Include="Chunin.cs" />
+    <Compile Include="Genin.cs" />
     <Compile Include="Jonin.cs" />
     <Compile Include="Shinobi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

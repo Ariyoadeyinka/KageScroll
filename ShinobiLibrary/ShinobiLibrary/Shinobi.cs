@@ -126,5 +126,6 @@ namespace ShinobiLibrary
                 return ((double)MissionCompleted / MissionAssigned) * 100;
             }
         }
+        public double MissionSuccessRateValue => MissionSuccessRate();
     }
 }

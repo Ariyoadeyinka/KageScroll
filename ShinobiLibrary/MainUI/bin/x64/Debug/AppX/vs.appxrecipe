@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-92NSIAM</Machine>
+    <WindowsUser>ariyo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>b4ba80ef-0554-40e4-bdd2-a90eea2a6505</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ariyo</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7B34450D9F75E162F9EC2E534946996863757E948A34D8686E19BBD9CC34D4E1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b4ba80ef-0554-40e4-bdd2-a90eea2a6505_1.0.0.0_x64__j6aj6samxm8xw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b4ba80ef-0554-40e4-bdd2-a90eea2a6505_j6aj6samxm8xw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b4ba80ef-0554-40e4-bdd2-a90eea2a6505</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ariyo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-08-01T04:02:31.175</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\MainUI.exe">
+      <PackagePath>entrypoint\MainUI.exe</PackagePath>
+      <Modified>2025-08-01T04:02:30.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T22:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\ShinobiLibrary\bin\Debug\ShinobiLibrary.dll">
+      <PackagePath>ShinobiLibrary.dll</PackagePath>
+      <Modified>2025-07-22T21:53:38.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.26100.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2024-09-05T22:56:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\HokageMonument.jpg">
+      <PackagePath>Assets\HokageMonument.jpg</PackagePath>
+      <Modified>2025-07-19T07:26:19.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2025-07-19T06:37:11.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-25T21:44:04.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\MainUI.xr.xml">
+      <PackagePath>MainUI.xr.xml</PackagePath>
+      <Modified>2025-07-22T21:54:29.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2025-08-01T04:02:30.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\AddShinobiDialog.xbf">
+      <PackagePath>AddShinobiDialog.xbf</PackagePath>
+      <Modified>2025-08-01T04:02:30.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2025-08-01T04:02:30.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\MissionPage.xbf">
+      <PackagePath>MissionPage.xbf</PackagePath>
+      <Modified>2025-08-01T04:02:30.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\ShinobiPage.xbf">
+      <PackagePath>ShinobiPage.xbf</PackagePath>
+      <Modified>2025-08-01T04:02:30.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.26100.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2024-09-05T22:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2025-07-22T21:54:29.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\bin\x64\Debug\Core\MainUI.exe">
+      <PackagePath>MainUI.exe</PackagePath>
+      <Modified>2025-08-01T04:02:31.171</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ariyo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ariyo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

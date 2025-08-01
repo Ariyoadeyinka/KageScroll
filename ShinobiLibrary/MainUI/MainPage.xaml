@@ -1,0 +1,134 @@
+﻿<Page
+    x:Class="MainUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MainUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- Background Layer -->
+    <Grid>
+        <!-- Full Background Image -->
+        <Image Source="Assets/HokageMonument.jpg"
+               Stretch="UniformToFill"
+               Opacity="0.35"
+               VerticalAlignment="Stretch"
+               HorizontalAlignment="Stretch"/>
+
+        <!-- Overlay Content -->
+        <Grid Background="#AAE3F2FF">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="260"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Sidebar -->
+            <StackPanel Background="#CCBDE6F1" Padding="20" Spacing="20" Grid.Column="0">
+                <TextBlock Text="☁ Menu"
+                           FontSize="26"
+                           FontWeight="Bold"
+                           Foreground="#1A3C56"
+                           Margin="0,10"/>
+
+                <Button Content="🧍 Manage Shinobi"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Padding="16,10"
+                        Background="#3478A3"
+                        Foreground="White"
+                        BorderThickness="0"
+                        CornerRadius="10" Click="Button_Click"/>
+
+                <Button Content="📜 Manage Missions"
+                        FontSize="20"
+                        FontWeight="Bold"
+                        Padding="16,10"
+                        Background="#3478A3"
+                        Foreground="White"
+                        BorderThickness="0"
+                        CornerRadius="10" Click="Button_Click_1"/>
+            </StackPanel>
+
+            <!-- Main Content -->
+            <ScrollViewer Grid.Column="1" Padding="30">
+                <StackPanel Spacing="30">
+
+                    <!-- Welcome Header -->
+                    <TextBlock Text="Welcome, Hokage!"
+                               FontSize="36"
+                               FontWeight="Bold"
+                               Foreground="#1A3C56"
+                               HorizontalAlignment="Center"
+                               FontFamily="Segoe UI"/>
+
+                    <!-- Descriptive Text -->
+                    <Border Background="#F8FBFF"
+        CornerRadius="12"
+        Padding="25"
+        Margin="20,10,20,0"
+        BorderBrush="#A0C4DB"
+        BorderThickness="1">
+
+                        <StackPanel Spacing="10">
+                            <TextBlock Text="⚔️ Welcome to the Hokage Command Scroll ⚔️"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   Foreground="#1A3C56"
+                   TextAlignment="Center"
+                   FontFamily="Segoe UI"/>
+
+                            <TextBlock Text="As Hokage, your wisdom, strategy, and judgment will shape the future of the village."
+                   FontSize="17"
+                   FontStyle="Italic"
+                   Foreground="#2C3E50"
+                   TextAlignment="Center"
+                   Margin="0,0,0,10"/>
+
+                            <StackPanel>
+                                <TextBlock Text="🧍 Manage Shinobi:"
+                       FontSize="16"
+                       FontWeight="SemiBold"
+                       Foreground="#1A3C56"/>
+                                <TextBlock Text="• Register new shinobi and assign them to squads."
+                       Margin="10,0,0,0"
+                       FontSize="15"/>
+                                <TextBlock Text="• Promote Genin to Chunin, or appoint elite Anbu operatives."
+                       Margin="10,0,0,0"
+                       FontSize="15"/>
+                                <TextBlock Text="• Retire fallen or inactive ninja from duty."
+                       Margin="10,0,0,10"
+                       FontSize="15"/>
+                            </StackPanel>
+
+                            <StackPanel>
+                                <TextBlock Text="📜 Manage Missions:"
+                       FontSize="16"
+                       FontWeight="SemiBold"
+                       Foreground="#1A3C56"/>
+                                <TextBlock Text="• Create and rank missions from D to S-class."
+                       Margin="10,0,0,0"
+                       FontSize="15"/>
+                                <TextBlock Text="• Assign shinobi based on rank and specialty."
+                       Margin="10,0,0,0"
+                       FontSize="15"/>
+                                <TextBlock Text="• Track mission outcomes and squad performance."
+                       Margin="10,0,0,0"
+                       FontSize="15"/>
+                            </StackPanel>
+
+                            <TextBlock Text="🍃 Lead with honor, Hokage. The village believes in you."
+                   FontSize="16"
+                   FontWeight="Bold"
+                   Foreground="#1A3C56"
+                   TextAlignment="Center"
+                   Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,50 @@
+﻿<ContentDialog
+    x:Class="MainUI.AddShinobiDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MainUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Add New Shinobi"
+    PrimaryButtonText="Create"
+    CloseButtonText="Cancel"
+    DefaultButton="Primary"
+    x:Name="AddShinobiDialogRoot">
+
+    <ScrollViewer>
+        <StackPanel Spacing="12" Padding="10">
+            <!-- Basic Info -->
+            <TextBox x:Name="FirstNameBox" Header="First Name"/>
+            <TextBox x:Name="LastNameBox" Header="Last Name"/>
+            <ComboBox x:Name="RankBox" Header="Rank" SelectionChanged="RankBox_SelectionChanged">
+                <ComboBoxItem Content="Genin"/>
+                <ComboBoxItem Content="Chunin"/>
+                <ComboBoxItem Content="Jonin"/>
+                <ComboBoxItem Content="Anbu"/>
+            </ComboBox>
+            <TextBox x:Name="SpecialtyBox" Header="Specialty"/>
+            <Slider x:Name="ChakraSlider" Header="Chakra Level" Minimum="0" Maximum="100" StepFrequency="1"/>
+            <DatePicker x:Name="DobPicker" Header="Date of Birth"/>
+            <ToggleSwitch x:Name="ActiveToggle" Header="Is Active?"/>
+
+            <!-- Mission Stats -->
+            <TextBox x:Name="MissionsCompletedBox" Header="Missions Completed" InputScope="Number"/>
+            <TextBox x:Name="MissionsAssignedBox" Header="Missions Assigned" InputScope="Number"/>
+
+            <!-- Genin-only -->
+            <TextBlock Text="Genin Fields" FontWeight="Bold" Visibility="Collapsed" x:Name="GeninLabel"/>
+            <TextBox x:Name="SenseiBox" Header="Assigned Sensei" Visibility="Collapsed"/>
+            <ToggleSwitch x:Name="SupervisionToggle" Header="Requires Supervision" Visibility="Collapsed"/>
+
+            <!-- Jonin-only -->
+            <TextBlock Text="Jonin Fields" FontWeight="Bold" Visibility="Collapsed" x:Name="JoninLabel"/>
+            <ToggleSwitch x:Name="SquadLeaderToggle" Header="Is Squad Leader?" Visibility="Collapsed"/>
+            <TextBox x:Name="MissionsLedBox" Header="Missions Led" InputScope="Number" Visibility="Collapsed"/>
+
+            <!-- Anbu-only -->
+            <TextBlock Text="Anbu Fields" FontWeight="Bold" Visibility="Collapsed" x:Name="AnbuLabel"/>
+            <TextBox x:Name="CodenameBox" Header="Codename" Visibility="Collapsed"/>
+        </StackPanel>
+    </ScrollViewer>
+</ContentDialog>

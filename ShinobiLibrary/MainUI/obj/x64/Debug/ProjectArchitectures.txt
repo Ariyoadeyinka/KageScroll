@@ -1,0 +1,2 @@
+C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\MainUI\MainUI.csproj;x64
+C:\Users\ariyo\OneDrive - NC\Niagara College\OneDrive - NC\Documents\C# Practice\Kage Scroll\ShinobiLibrary\ShinobiLibrary\ShinobiLibrary.csproj;neutral
